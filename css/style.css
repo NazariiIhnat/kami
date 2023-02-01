@@ -268,6 +268,7 @@
 
 .overlay:hover {
   opacity: 1;
+  cursor: pointer;
 }
 
 .overlay-text {
