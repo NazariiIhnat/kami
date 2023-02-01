@@ -1,0 +1,12 @@
+{
+  "name": "Kami PWA",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "img/solid.png",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: black;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+body * {
+  color: #fff;
+  font-family: "Montserrat";
+  font-style: normal;
+}
+
+.container {
+  max-width: 109.1rem;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.container--l {
+  max-width: 127.6rem;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 9.6rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 3.8rem;
+  line-height: 140%;
+}
+
+.fs--xs {
+  font-size: 1.1rem;
+}
+
+.fs--s {
+  font-size: 1.2rem;
+}
+
+.fs--m {
+  font-size: 1.6rem;
+}
+
+.fs--l {
+  font-size: 2rem;
+}
+
+.fs--xl {
+  font-size: 2.4rem;
+}
+
+.fw--s {
+  font-weight: 400;
+}
+
+.fw--m {
+  font-weight: 500;
+}
+
+.fw--l {
+  font-weight: 600;
+}
+
+.fw--xl {
+  font-weight: 700;
+}
+
+.font--m--c {
+  color: #e20044;
+}
+
+.background--m--c {
+  background-color: #e20044;
+}
+
+.lh-s {
+  line-height: 140%;
+}
+
+.lh-m {
+  line-height: 160%;
+}
+
+.lh-l {
+  line-height: 210%;
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
